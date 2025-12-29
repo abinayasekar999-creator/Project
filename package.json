@@ -1,0 +1,24 @@
+{
+  "name": "bamboo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install @playwright/test && npx playwright install --with-deps",
+    "test": "npx playwright test",
+    "test-report": "npx playwright show-report",
+    "test-debug": "npx playwright test --debug",
+    "chromws": "npx playwright test --project=chromium",
+    "firefoxws": "npx playwright test --project=firefox",
+    "webkitws": "npx playwright test --project=webkit",
+    "run-and-generate-report": "npx playwright test --headed --project=chromium && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}

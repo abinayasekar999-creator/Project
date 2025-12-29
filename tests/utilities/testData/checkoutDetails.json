@@ -1,0 +1,12 @@
+{
+    "billingDetails": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "jhond123@gmail.com",
+        "country": "India",
+        "city": "Chennai",
+        "address1": "123, ABC Street",
+        "zipCode": "600001",
+        "phoneNumber": "9876543210"
+    }
+}
