@@ -1,7 +1,7 @@
-# Bamboo Webshop Automation
+# Webshop Automation
 
 ## Description
-Bamboo is a test automation project that utilizes Playwright to automate the process of adding items to a shopping cart on a webshop. The project includes tests for navigating the webshop, adding products to the cart, and completing the checkout process.
+This is a test automation project that utilizes Playwright to automate the process of adding items to a shopping cart on a webshop. The project includes tests for navigating the webshop, adding products to the cart, and completing the checkout process.
 
 ## Installation
 1. Clone the repository:
@@ -10,7 +10,7 @@ Bamboo is a test automation project that utilizes Playwright to automate the pro
    ```
 2. Navigate to the project directory:
    ```
-   cd Bamboo
+    cd Project
    ```
 3. Install the required dependencies:
    ```
